@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Carter One', cursive;
+    
+}
+
+header{
+    width: 100%;
+    height: 3rem;
+
+}
+nav{
+    display: flex;
+}
+
+#name{
+    width: 40%;
+    height: 3rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Portfolio name */
+header>nav>#name>a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+span{
+    color: #f9004d;
+}
+
+ul{
+    width: 60%;
+    list-style: none;
+    height: 3rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    
+ 
+}
+
+ul>li{
+    display: flex;
+    margin: -100px;
+}
+    
+
+ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+
+/* hover on name */
+header nav #name :hover{
+    color: #f9004d;
+}
+
+/* hover on nav tag */
+nav ul li a:hover{
+    color: #f9004d;
+    
+}
+
+Section{
+    width: 100%;
+    height: 100%;
+}
+/* Background Image */
+#bgimg{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+/* Starting Page Button */
+#content{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+
+h1{
+    color: black;
+    margin: 10px;
+    font-size: 70px;
+    letter-spacing: 2px;
+    /* font-family: ; */
+}
+h3{
+    color: black;
+    margin: 10px;
+    font-size: 27px;
+    letter-spacing: 2px;
+    
+}
+h4{
+    color: black;
+    margin: 10px;
+    font-size: 24px;
+    letter-spacing: 2px;
+
+}
+/* Naming Button 1*/
+#content_email input:first-child{
+display: inline-block;
+border: 2px solid black;
+border-radius: 30px;
+width: 100%;
+padding: 11px 130px 14px 15px;
+background-color: whitesmoke;
+
+}
+
+/* Naming Button 2 */
+#content_email input:last-child{
+    display: inline-block;
+    position: absolute;
+    width: 18%;
+    border: 2px solid #f9004d;
+    border-radius: 20%;
+    padding: 5px 5px;
+    background-color: #f9004d;
+    bottom: 8px;
+    right: 12px;
+    color: white;
+}
+
+/* Container Start */
+
+#container{
+    width: 100%;
+    height: 48rem;
+    background-color: black;
+    display: flex;
+    position: absolute;
+
+}
+#aboutme_img{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: relative;
+    top: 70px;
+    left: 90px;
+}
+
+#aboutme{
+    width: 40%;
+    color: white;
+    position: relative;
+    display: flex;
+    bottom: 30rem;
+    left: 50rem;
+}
+#aboutme>h2{
+    
+    left: 10rem;
+    position: absolute;
+    font-size: 3.5rem;
+}
+
+#aboutme>span{
+    position: absolute;
+    font-size: 1.5rem;
+    top: 6rem;
+    left: 10rem;
+}
+#aboutme>p{
+    position: relative;
+    top: 9rem;
+    left: 5rem;
+    
+}
+
+
+#aboutme_button input{
+    display: flex;
+    color: white;
+    background-color: #f9004d;
+    bottom: -23rem;
+    left: -12rem;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+/* Projects Secction CSS   */
+
+#project_container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+   
+}
+
+#project_head{
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+font-size: 1.8rem;
+cursor: pointer;
+}
+
+#project_img{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 2rem;
+    cursor: pointer;
+   
+  
+}
+
+#img_span1{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 20rem;
+    left: 8rem;
+    color: white;
+    cursor: pointer;
+    
+}
+#img_span2{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 20rem;
+    left: 40rem;
+    color: white;
+    cursor: pointer;
+
+}
+#img_span3{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 20rem;
+    right: 50rem;
+    color: white;
+    cursor: pointer;
+}
+
+
+#img_span3{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 20rem;
+    right: 12rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* Contact US  */
+
+#outer_box{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+
+}
+#contact_me{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5rem;
+    font-size: x-large;
+    cursor: pointer;
+    
+
+}
+#material{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    top: 10rem;
+    font-size: xx-large;
+    
+}
+
+#material_submit{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 12rem;
+    cursor: pointer;
+
+}
+#inner_box{
+    width: 100%; 
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 18rem;
+  
+    
+}
+
+#resume{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: x-large;
+    left: 18rem;
+    
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+   
+   
+  
+}
+
+
+#contact_info{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 17rem;
+    font-size: x-large;
+}
+
+#email{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -3rem;
+    position: relative;
+    top: -2.7rem;
+    cursor: pointer;
+
+}
+
+
+
+   
+
+#num{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -29rem;
+    position: relative;
+    top: 2rem;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: 6rem;
+    background-color: black;
+    color: white;
+    border: 2px solid #f9004d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+
+    
+    
+    
